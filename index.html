@@ -1,29 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | NFT preview card component</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
 <body>
+  <!-- Card -->
+  <div class="card">
+    <img src="images/image-equilibrium.jpg">
+    <div class="card_title">
+      <p>Equilibrium #3429</p>
+    </div>
 
-  Equilibrium #3429
+    <p>Our Equilibrium collection promotes balance and calm.</p>
 
-  Our Equilibrium collection promotes balance and calm.
+    <!-- Spc -->
+    <div class="spc">
+      <!-- ethereum balance -->
+      <div class="eth">
+        <img src="images/icon-ethereum.svg">
+        <p>0.041 ETH</p>
+      </div>
+      <!-- time left -->
+      <div class="time">
+        <img src="images/icon-clock.svg">
+        <p>3 days left</p>
+      </div>
+    </div>
 
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
+    <!-- Spr_line -->
+    <div class="spr_line"></div>
+
+    <!-- Created by -->
+    <div class="crby">
+      <img src="images/image-avatar.png">
+      <p>Creation of</p>
+      <div class="au"><p> Jules Wyvern</p></div>
+    </div>
+  </div>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
