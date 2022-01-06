@@ -3,12 +3,15 @@
    background: hsl(217, 54%, 11%);
 }
 .attribution {
+   color: #49f496;
    margin-top: 1rem;
    font-size: 11px;
-   text-align: center; 
+   text-align: center;
+   font-family: 'Outfit';
 }
 .attribution a {
-   color: hsl(228, 45%, 44%); 
+   color: #49f4d2; 
+   text-decoration: none;
 }
 .card {
    display: block;
